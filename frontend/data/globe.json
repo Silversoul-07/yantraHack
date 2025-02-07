@@ -1,0 +1,14 @@
+{
+    "countries": [
+      {
+        "name": "Country1",
+        "lat": 10.0,
+        "lng": 20.0
+      },
+      {
+        "name": "Country2",
+        "lat": 30.0,
+        "lng": 40.0
+      }
+    ]
+  }

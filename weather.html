@@ -1,0 +1,418 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>
+        Weather Forecast
+    </title>
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <style>
+        body {
+            background: url('https://placehold.co/1920x1080') no-repeat center center fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body class="text-white font-sans">
+    <div class="container mx-auto p-4">
+        <div class="flex justify-between items-center mb-8">
+            <div class="text-2xl font-semibold">
+                Weather.
+            </div>
+            <div class="flex items-center space-x-4">
+                <div class="flex items-center space-x-2">
+                    <i class="fas fa-map-marker-alt">
+                    </i>
+                    <span>
+                        Dhaka, Bangladesh
+                    </span>
+                </div>
+                <div class="relative">
+                    <input class="bg-gray-800 text-white rounded-full pl-4 pr-10 py-2 focus:outline-none"
+                        placeholder="Search area here..." type="text" />
+                    <i class="fas fa-search absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400">
+                    </i>
+                </div>
+                <img alt="User profile picture" class="rounded-full w-10 h-10" height="40"
+                    src="https://storage.googleapis.com/a1aa/image/ojspyXXiAtL05aBSIz3dZZvYyNJObCvymSDQ_mVsMKo.jpg"
+                    width="40" />
+            </div>
+        </div>
+        <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-2">
+                Today's Weather Forecast
+            </h2>
+            <div class="flex items-center space-x-4">
+                <div>
+                    <div class="text-6xl font-bold">
+                        30°C
+                    </div>
+                    <div class="text-lg">
+                        Feels 32°C
+                    </div>
+                    <div class="text-sm text-gray-400">
+                        Wednesday, July 12, 10:03 AM
+                    </div>
+                </div>
+                <div class="flex-1 flex justify-center">
+                    <img alt="Thunderstorm icon" class="w-24 h-24" height="100"
+                        src="https://storage.googleapis.com/a1aa/image/U5iuHsburYu1cbVWktkePksRYzflAXQ8hohMvNHPo7I.jpg"
+                        width="100" />
+                </div>
+                <div class="text-right">
+                    <div class="text-lg font-semibold">
+                        Thundershower
+                    </div>
+                    <div class="text-sm text-gray-400">
+                        <div>
+                            <i class="fas fa-tint">
+                            </i>
+                            Precipitation: 80%
+                        </div>
+                        <div>
+                            <i class="fas fa-water">
+                            </i>
+                            Humidity: 74%
+                        </div>
+                        <div>
+                            <i class="fas fa-wind">
+                            </i>
+                            Wind: 18 km/h
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mb-8">
+            <div class="flex justify-between items-center bg-gray-800 rounded-lg p-4">
+                <div class="text-center">
+                    <div class="text-sm text-gray-400">
+                        1 AM
+                    </div>
+                    <img alt="Weather icon" class="mx-auto" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-sm">
+                        28°C
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="text-sm text-gray-400">
+                        3 AM
+                    </div>
+                    <img alt="Weather icon" class="mx-auto" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-sm">
+                        29°C
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="text-sm text-gray-400">
+                        5 AM
+                    </div>
+                    <img alt="Weather icon" class="mx-auto" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-sm">
+                        31°C
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="text-sm text-gray-400">
+                        7 AM
+                    </div>
+                    <img alt="Weather icon" class="mx-auto" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-sm">
+                        32°C
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="text-sm text-gray-400">
+                        9 AM
+                    </div>
+                    <img alt="Weather icon" class="mx-auto" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-sm">
+                        31°C
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="text-sm text-gray-400">
+                        11 AM
+                    </div>
+                    <img alt="Weather icon" class="mx-auto" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-sm">
+                        30°C
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="text-sm text-gray-400">
+                        1 PM
+                    </div>
+                    <img alt="Weather icon" class="mx-auto" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-sm">
+                        29°C
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="text-sm text-gray-400">
+                        3 PM
+                    </div>
+                    <img alt="Weather icon" class="mx-auto" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-sm">
+                        28°C
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="text-sm text-gray-400">
+                        5 PM
+                    </div>
+                    <img alt="Weather icon" class="mx-auto" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-sm">
+                        28°C
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="text-sm text-gray-400">
+                        7 PM
+                    </div>
+                    <img alt="Weather icon" class="mx-auto" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-sm">
+                        27°C
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="text-sm text-gray-400">
+                        9 PM
+                    </div>
+                    <img alt="Weather icon" class="mx-auto" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-sm">
+                        27°C
+                    </div>
+                </div>
+                <div class="text-center">
+                    <div class="text-sm text-gray-400">
+                        11 PM
+                    </div>
+                    <img alt="Weather icon" class="mx-auto" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-sm">
+                        27°C
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="text-xl font-semibold mb-4">
+                Weekly Forecast
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4">
+                <div class="bg-gray-800 rounded-lg p-4 text-center">
+                    <div class="text-sm text-gray-400">
+                        July 12
+                    </div>
+                    <div class="text-lg font-semibold">
+                        Wed
+                    </div>
+                    <img alt="Weather icon" class="mx-auto my-2" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-lg">
+                        32°C 27°C
+                    </div>
+                    <div class="text-sm text-gray-400">
+                        Thundershower
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Wind: 16 km/h
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Precipitation: 70%
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Humidity: 77%
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-4 text-center">
+                    <div class="text-sm text-gray-400">
+                        July 13
+                    </div>
+                    <div class="text-lg font-semibold">
+                        Thu
+                    </div>
+                    <img alt="Weather icon" class="mx-auto my-2" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-lg">
+                        32°C 26°C
+                    </div>
+                    <div class="text-sm text-gray-400">
+                        Thundershower
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Wind: 14 km/h
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Precipitation: 80%
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Humidity: 79%
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-4 text-center">
+                    <div class="text-sm text-gray-400">
+                        July 14
+                    </div>
+                    <div class="text-lg font-semibold">
+                        Fri
+                    </div>
+                    <img alt="Weather icon" class="mx-auto my-2" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-lg">
+                        31°C 26°C
+                    </div>
+                    <div class="text-sm text-gray-400">
+                        Thundershower
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Wind: 14 km/h
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Precipitation: 80%
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Humidity: 79%
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-4 text-center">
+                    <div class="text-sm text-gray-400">
+                        July 15
+                    </div>
+                    <div class="text-lg font-semibold">
+                        Sat
+                    </div>
+                    <img alt="Weather icon" class="mx-auto my-2" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-lg">
+                        30°C 26°C
+                    </div>
+                    <div class="text-sm text-gray-400">
+                        Thundershower
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Wind: 14 km/h
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Precipitation: 70%
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Humidity: 78%
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-4 text-center">
+                    <div class="text-sm text-gray-400">
+                        July 16
+                    </div>
+                    <div class="text-lg font-semibold">
+                        Sun
+                    </div>
+                    <img alt="Weather icon" class="mx-auto my-2" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-lg">
+                        31°C 26°C
+                    </div>
+                    <div class="text-sm text-gray-400">
+                        Thundershower
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Wind: 14 km/h
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Precipitation: 70%
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Humidity: 78%
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-4 text-center">
+                    <div class="text-sm text-gray-400">
+                        July 17
+                    </div>
+                    <div class="text-lg font-semibold">
+                        Mon
+                    </div>
+                    <img alt="Weather icon" class="mx-auto my-2" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-lg">
+                        32°C 27°C
+                    </div>
+                    <div class="text-sm text-gray-400">
+                        Scattered thunderstorms
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Wind: 13 km/h
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Precipitation: 50%
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Humidity: 76%
+                    </div>
+                </div>
+                <div class="bg-gray-800 rounded-lg p-4 text-center">
+                    <div class="text-sm text-gray-400">
+                        July 18
+                    </div>
+                    <div class="text-lg font-semibold">
+                        Tue
+                    </div>
+                    <img alt="Weather icon" class="mx-auto my-2" height="40"
+                        src="https://storage.googleapis.com/a1aa/image/02H1AcPlpvairtTnlrSogndkm7taBQo2UD0cJu83zDs.jpg"
+                        width="40" />
+                    <div class="text-lg">
+                        33°C 27°C
+                    </div>
+                    <div class="text-sm text-gray-400">
+                        Isolated thunderstorms
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Wind: 13 km/h
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Precipitation: 30%
+                    </div>
+                    <div class="text-xs text-gray-400">
+                        Humidity: 72%
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
