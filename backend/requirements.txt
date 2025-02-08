@@ -1,2 +1,9 @@
-fastapi==0.115.8
-motor==3.7.0
+argon2-cffi
+fastapi[standard]==0.115.8
+joblib==1.4.2
+numpy==2.2.2
+pydantic==2.10.6
+PyJWT==2.10.1
+SQLAlchemy==2.0.38
+xgboost-cpu
+psycopg-binary

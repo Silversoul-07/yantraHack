@@ -48,7 +48,7 @@ const AuthPage = () => {
 
       if (isLogin) {
         // Handle successful login
-        window.location.href = '/dashboard';
+        window.location.href = '/loading';
       } else {
         // Switch to login after successful registration
         setIsLogin(true);
